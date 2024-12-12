@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Feedback Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="feedbackForm">
+    <h2>Student Feedback Form</h2>
+    <div id="formDetails"></div>
+    <p>Note: P = Poor, A = Average, S = Satisfied, G = Good, E = Excellent</p>
+    <br>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Question</th>
+          <!-- Dynamic Teacher and Subject Headers -->
+        </tr>
+      </thead>
+      <tbody id="feedbackTableBody">
+        <!-- Questions and Feedback Inputs -->
+      </tbody>
+    </table>
+
+    <div>
+      <label for="facultyComments">Comments for Faculty:</label>
+      <textarea id="facultyComments" rows="4" cols="50"></textarea>
+    </div>
+
+    <div>
+      <label for="departmentComments">Comments for Department:</label>
+      <textarea id="departmentComments" rows="4" cols="50"></textarea>
+    </div>
+    <button type="button" id="submitFeedbackForm">Submit</button>
+  </div>
+  <script src="feedback.js"></script>
+</body>
+</html>
