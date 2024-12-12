@@ -35,7 +35,7 @@ document.getElementById('submitFirstForm').addEventListener('click', function ()
     });
   
     // Generate the shareable URL
-    const baseURL = window.location.origin + '/your-repo-name/feedback.html'; // Adjust this URL
+    const baseURL = window.location.origin + 'feedback.html'; // Adjust this URL
     const shareableURL = `${baseURL}?${params.toString()}`;
   
     // Display the URL in the input field and show the "Copy" button
